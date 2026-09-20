@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="240" viewBox="0 0 480 240">
+  <rect width="480" height="240" fill="#eaf4f4"/>
+  <circle cx="150" cy="155" r="55" fill="none" stroke="#c0392b" stroke-width="8"/>
+  <circle cx="350" cy="155" r="55" fill="none" stroke="#c0392b" stroke-width="8"/>
+  <path d="M150 155 L220 75 L285 155 L150 155 L190 155 L255 75 L350 155 M220 75 L255 75 M205 75 L185 55 M245 75 L270 55" fill="none" stroke="#2c3e50" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="240" y="215" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#2c3e50">Ciclismo</text>
+</svg>
