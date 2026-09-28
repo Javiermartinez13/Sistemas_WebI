@@ -1,30 +1,21 @@
 # Sistemas Web I
 
-Este repositorio reúne los ejercicios y prácticas que iré realizando durante la asignatura **Sistemas Web I**.
+Este repositorio reúne las prácticas de la asignatura Sistemas Web I. Cada trabajo está organizado en su propia carpeta para que los archivos sean fáciles de localizar y revisar.
 
-La idea es utilizarlo como un espacio de trabajo para aprender los fundamentos del desarrollo web de forma progresiva. Al principio incluirá ejercicios sencillos de HTML y, a medida que avance la asignatura, iré incorporando nuevos contenidos y ejemplos.
+## Prácticas
 
-## Contenidos
+### HTML
 
-Entre los temas que se trabajarán se encuentran:
+La carpeta [ejercicio-html](ejercicio-html/) contiene una página sencilla sobre el ciclismo. Incluye estructura semántica, navegación, textos, listas, una imagen, una tabla y enlaces.
 
-- HTML y la estructura básica de una página web.
-- Enlaces, imágenes, listas, tablas y formularios.
-- CSS para dar formato y mejorar la presentación.
-- HTTP y el funcionamiento básico de la comunicación entre cliente y servidor.
-- JavaScript para añadir comportamiento e interacción a las páginas.
-- Otros conceptos y herramientas relacionados con el desarrollo web.
+Para abrirla, haz doble clic en [mi-bici.html](ejercicio-html/mi-bici.html).
 
-## Ejercicios
+### Bootstrap
 
-Cada práctica se organizará en su propia carpeta para que los archivos sean fáciles de localizar y revisar.
+La carpeta [Ejercicio-Bootstrap](Ejercicio-Bootstrap/) contiene una página sobre baloncesto creada con Bootstrap 5.3.3 mediante CDN. Incluye un Navbar responsive, Grid, Cards, botones, alerta, carrusel y formulario.
 
-### Ejercicio de HTML
+Para abrirla, haz doble clic en [index.html](Ejercicio-Bootstrap/index.html). Es necesaria una conexión a Internet para cargar Bootstrap y las imágenes externas.
 
-La primera práctica se encuentra en la carpeta [ejercicio-html](ejercicio-html/). Consiste en una página sencilla sobre el ciclismo y utiliza distintos elementos HTML, como encabezados, párrafos, enlaces, listas, una imagen, una tabla, navegación y un pie de página.
+## Objetivo
 
-Para abrirla directamente en el navegador, se puede hacer doble clic en [mi-bici.html](ejercicio-html/mi-bici.html).
-
-## Objetivo del repositorio
-
-El objetivo es llevar un registro ordenado del trabajo realizado en la asignatura y poder consultar cómo van evolucionando los ejercicios a medida que se incorporan nuevos conocimientos.
+El repositorio sirve para practicar progresivamente HTML, CSS, Bootstrap, JavaScript y otros contenidos relacionados con el desarrollo web.
