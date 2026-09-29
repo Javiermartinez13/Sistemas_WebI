@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    font-family: Arial, sans-serif;
+    color: #203040;
+    background: #e8f1f5;
+}
+
+.tarjeta {
+    width: min(100%, 520px);
+    padding: 32px;
+    border: 1px solid #c5d8e1;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 8px 20px rgba(32, 48, 64, 0.12);
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #176b87;
+}
+
+.descripcion {
+    line-height: 1.5;
+}
+
+form {
+    display: grid;
+    gap: 14px;
+    margin-top: 24px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #9bb8c5;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.opcion {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+button {
+    padding: 12px;
+    border: 0;
+    border-radius: 5px;
+    color: #ffffff;
+    background: #176b87;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0f5268;
+}
+
+.mensaje {
+    min-height: 24px;
+    margin-bottom: 8px;
+    color: #a33a24;
+    font-weight: bold;
+}
+
+.resultado {
+    display: block;
+    min-height: 48px;
+    padding: 14px;
+    overflow-wrap: anywhere;
+    border: 1px dashed #7eaaba;
+    border-radius: 5px;
+    color: #123b4a;
+    background: #f2f8fa;
+    font-family: "Courier New", monospace;
+    font-size: 1.15rem;
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    .tarjeta {
+        padding: 24px;
+    }
+}
