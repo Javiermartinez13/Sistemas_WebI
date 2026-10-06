@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videojuegos favoritos</title>
+    <link rel="stylesheet" href="noche.css">
+</head>
+<body>
+    <main class="contenedor">
+        <section id="contenido-principal">
+            <h1>Mi rincón de videojuegos</h1>
+            <p>
+                Los videojuegos son una forma de entretenimiento que permite
+                descubrir historias, competir y jugar con otras personas.
+            </p>
+
+            <h2>Algunos géneros</h2>
+            <ul>
+                <li>Aventura y exploración</li>
+                <li>Deportes</li>
+                <li>Estrategia</li>
+            </ul>
+
+            <button id="boton-registro" type="button">Registrarse</button>
+        </section>
+
+        <section id="seccion-registro" class="oculto">
+            <h2>Formulario de registro</h2>
+            <p>Completa los datos para registrarte.</p>
+
+            <form id="formulario-registro" novalidate>
+                <label for="nombre">Nombre y apellidos</label>
+                <input type="text" id="nombre" name="nombre">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+
+                <label for="telefono">Teléfono</label>
+                <div class="telefono">
+                    <span>+34</span>
+                    <input type="tel" id="telefono" name="telefono" maxlength="9">
+                </div>
+
+                <label for="contrasena">Contraseña</label>
+                <input type="password" id="contrasena" name="contrasena">
+
+                <div id="mensajes" aria-live="polite"></div>
+
+                <div class="botones">
+                    <button type="submit">Enviar</button>
+                    <button id="boton-cancelar" type="button" class="secundario">Cancelar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="registro.js"></script>
+</body>
+</html>
