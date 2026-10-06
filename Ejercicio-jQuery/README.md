@@ -5,13 +5,13 @@ HTML, CSS, JavaScript y jQuery.
 
 ## Archivos
 
-- `videojuegos.html`: contiene la página principal, el formulario y la inclusión de jQuery.
+- `registro.html`: contiene la página principal, el formulario y la inclusión de jQuery.
 - `noche.css`: contiene los estilos de la página en tonos oscuros.
 - `registro.js`: muestra y oculta las secciones y valida los datos del formulario.
 
 ## Cómo probarlo
 
-Abre `videojuegos.html` con un navegador. Para cargar jQuery es necesario tener
+Abre `registro.html` con un navegador. Para cargar jQuery es necesario tener
 conexión a Internet.
 
 Pulsa **Registrarse** para abrir el formulario. Prueba a introducir datos
