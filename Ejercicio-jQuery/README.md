@@ -1,23 +1,34 @@
 # Ejercicio jQuery
 
+## Descripción
+
 Página sencilla sobre videojuegos con un formulario de registro realizado con
 HTML, CSS, JavaScript y jQuery.
 
 ## Archivos
 
-- `registro.html`: contiene la página principal, el formulario y la inclusión de jQuery.
-- `noche.css`: contiene los estilos de la página en tonos oscuros.
-- `registro.js`: muestra y oculta las secciones y valida los datos del formulario.
+- `registro.html`: página principal, formulario e inclusión de jQuery.
+- `noche.css`: estilos de la página en tonos oscuros.
+- `registro.js`: muestra y oculta secciones y valida los datos.
+
+## Funcionamiento
+
+- El botón **Registrarse** abre el formulario.
+- El formulario valida los datos introducidos.
+- Los datos incorrectos muestran mensajes de validación.
+- Con los datos correctos se muestra el mensaje de registro completado.
+- El botón **Cancelar** vuelve a mostrar la página principal.
+- El prefijo `+34` aparece directamente en el formulario; solo hay que escribir
+  los nueve números restantes, por ejemplo `612345678`.
 
 ## Cómo probarlo
 
-Abre `registro.html` con un navegador. Para cargar jQuery es necesario tener
-conexión a Internet.
+Abre `registro.html` directamente con un navegador. Es necesaria una conexión a
+Internet para cargar jQuery desde su CDN.
 
-Pulsa **Registrarse** para abrir el formulario. Prueba a introducir datos
-incorrectos para ver los mensajes de validación. Con todos los datos correctos
-se mostrará el mensaje de registro realizado correctamente. El botón
-**Cancelar** vuelve a mostrar la página principal.
+## Tecnologías
 
-El prefijo `+34` aparece directamente en el formulario y solo hay que escribir
-los nueve números restantes, por ejemplo: `612345678`.
+- HTML5.
+- CSS3.
+- JavaScript.
+- jQuery.

@@ -1,21 +1,37 @@
 # Sistemas Web I
 
-Este repositorio reúne las prácticas de la asignatura Sistemas Web I. Cada trabajo está organizado en su propia carpeta para que los archivos sean fáciles de localizar y revisar.
+Repositorio de ejercicios de la asignatura Sistemas Web I. El objetivo es
+practicar distintos recursos del desarrollo web mediante ejemplos sencillos y
+progresivos.
 
-## Prácticas
+Cada práctica está organizada en una carpeta independiente y cuenta con su
+propio README, donde se explican los archivos incluidos, su funcionamiento y
+la forma de probarla.
 
-### HTML
+## Ejercicios
 
-La carpeta [ejercicio-html](ejercicio-html/) contiene una página sencilla sobre el ciclismo. Incluye estructura semántica, navegación, textos, listas, una imagen, una tabla y enlaces.
+- [HTML](ejercicio-html/): estructura semántica y contenido de una página.
+- [JavaScript](Ejercicio-JavaScript/): generador de contraseñas.
+- [jQuery](Ejercicio-jQuery/): formulario de registro interactivo.
+- [Bootstrap](Ejercicio-Bootstrap/): página responsive sobre baloncesto.
+- [Tampermonkey](ejercicio-Tampermonkey/): modo para reducir distracciones en
+  YouTube.
 
-Para abrirla, haz doble clic en [mi-bici.html](ejercicio-html/mi-bici.html).
+## Objetivos
 
-### Bootstrap
+Con estos ejercicios se practican:
 
-La carpeta [Ejercicio-Bootstrap](Ejercicio-Bootstrap/) contiene una página sobre baloncesto creada con Bootstrap 5.3.3 mediante CDN. Incluye un Navbar responsive, Grid, Cards, botones, alerta, carrusel y formulario.
+- La creación de páginas con una estructura HTML clara y semántica.
+- La aplicación de estilos mediante CSS.
+- La programación de interacciones y validaciones con JavaScript.
+- El uso de jQuery para simplificar la manipulación de la página.
+- El diseño responsive utilizando componentes y el sistema de columnas de
+  Bootstrap.
+- La modificación de páginas existentes mediante scripts de Tampermonkey.
 
-Para abrirla, haz doble clic en [index.html](Ejercicio-Bootstrap/index.html). Es necesaria una conexión a Internet para cargar Bootstrap y las imágenes externas.
+## Cómo utilizarlo
 
-## Objetivo
-
-El repositorio sirve para practicar progresivamente HTML, CSS, Bootstrap, JavaScript y otros contenidos relacionados con el desarrollo web.
+Para empezar, entra en la carpeta del ejercicio que quieras revisar y consulta
+su README. Las prácticas de HTML, JavaScript, jQuery y Bootstrap se pueden
+abrir directamente en un navegador. La práctica de Tampermonkey requiere tener
+instalada la extensión y seguir sus instrucciones de configuración.
