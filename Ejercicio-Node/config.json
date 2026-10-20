@@ -1,0 +1,9 @@
+{
+  "intervalSeconds": 5,
+  "stats": {
+    "cpu": true,
+    "memory": true,
+    "systemUptime": true,
+    "nodeUptime": true
+  }
+}
