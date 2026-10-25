@@ -18,6 +18,8 @@ la forma de probarla.
   YouTube.
 - [Node.js](Ejercicio-Node/): información y estadísticas periódicas del sistema
   mediante un programa de consola.
+- [JSON](Ejercicio-JSON/): representación de películas y sesiones de cine en un
+  mensaje JSON.
 
 ## Objetivos
 
@@ -32,6 +34,8 @@ Con estos ejercicios se practican:
 - La modificación de páginas existentes mediante scripts de Tampermonkey.
 - El uso de los módulos nativos de Node.js para consultar información del
   sistema y configurar ejecuciones periódicas.
+- El diseño de mensajes JSON válidos con objetos y arrays anidados, evitando
+  duplicar información.
 
 ## Cómo utilizarlo
 
