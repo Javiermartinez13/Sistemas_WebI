@@ -1,0 +1,10 @@
+{
+  "name": "ejercicio-node-generador-contrasenas",
+  "version": "1.0.0",
+  "description": "Servidor Node.js que genera contraseñas con palabras aleatorias.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "ISC"
+}

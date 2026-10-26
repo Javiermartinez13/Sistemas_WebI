@@ -18,6 +18,8 @@ la forma de probarla.
   YouTube.
 - [Node.js](Ejercicio-Node/): información y estadísticas periódicas del sistema
   mediante un programa de consola.
+- [Node.js - Contraseñas](Ejercicio-Node-Contraseña/): servidor web que genera
+  contraseñas con palabras aleatorias.
 - [JSON](Ejercicio-JSON/): representación de películas y sesiones de cine en un
   mensaje JSON.
 
@@ -34,6 +36,8 @@ Con estos ejercicios se practican:
 - La modificación de páginas existentes mediante scripts de Tampermonkey.
 - El uso de los módulos nativos de Node.js para consultar información del
   sistema y configurar ejecuciones periódicas.
+- La creación de un servidor web con Node.js, la lectura de archivos y el
+  procesamiento de parámetros de una URL.
 - El diseño de mensajes JSON válidos con objetos y arrays anidados, evitando
   duplicar información.
 
