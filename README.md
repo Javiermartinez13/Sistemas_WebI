@@ -50,3 +50,8 @@ instalada la extensión y seguir sus instrucciones de configuración.
 
 La práctica de Node.js se ejecuta desde su carpeta con `npm start` y permite
 configurar el intervalo y las estadísticas en `Ejercicio-Node/config.json`.
+
+La práctica de generación de contraseñas se ejecuta desde
+`Ejercicio-Node-Contraseña` con `npm start` y se prueba en
+`http://localhost:3000/`, utilizando el parámetro `x` para indicar el número
+de palabras.
