@@ -22,6 +22,10 @@ la forma de probarla.
   contraseñas con palabras aleatorias.
 - [JSON](Ejercicio-JSON/): representación de películas y sesiones de cine en un
   mensaje JSON.
+- [Node.js - Scraping](Ejercicio-Node-Scraping/): servidor que descarga y
+  procesa HTML periódicamente para extraer citas y autores.
+- [Node.js - Login](Ejercicio-Node-Login/): proyecto Express con página principal
+  y login, creado con express-generator.
 
 ## Objetivos
 
@@ -40,6 +44,10 @@ Con estos ejercicios se practican:
   procesamiento de parámetros de una URL.
 - El diseño de mensajes JSON válidos con objetos y arrays anidados, evitando
   duplicar información.
+- La descarga y análisis de HTML remoto con Cheerio y la extracción de datos
+  estructurados.
+- La creación de proyectos Express con express-generator, el uso de plantillas
+  Pug, el enrutamiento y el envío de datos del servidor a la vista.
 
 ## Cómo utilizarlo
 
@@ -55,3 +63,11 @@ La práctica de generación de contraseñas se ejecuta desde
 `Ejercicio-Node-Contraseña` con `npm start` y se prueba en
 `http://localhost:3000/`, utilizando el parámetro `x` para indicar el número
 de palabras.
+
+La práctica de scraping se ejecuta desde `Ejercicio-Node-Scraping` con
+`npm start` y se prueba en `http://localhost:3000/`, mostrando las citas
+extraídas actualizadas cada 60 segundos.
+
+La práctica de login se ejecuta desde `Ejercicio-Node-Login` con `npm start`
+y se prueba en `http://localhost:3000/` (página principal) y
+`http://localhost:3000/login` (página de login).

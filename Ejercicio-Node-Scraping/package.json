@@ -1,0 +1,17 @@
+{
+  "name": "ejercicio-node-scraping",
+  "version": "1.0.0",
+  "description": "Ejercicio 4 de Node.js: descargar y procesar HTML de una web periódicamente",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "node-fetch": "^3.3.2"
+  },
+  "type": "module",
+  "keywords": ["nodejs", "scraping", "cheerio", "html"],
+  "author": "",
+  "license": "MIT"
+}

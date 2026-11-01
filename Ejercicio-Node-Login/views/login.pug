@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  .container
+    h1= title
+    if mensaje
+      .mensaje.demo= mensaje
+    form(method='POST' action='/login')
+      .form-group
+        label(for='username') Usuario o correo electrónico
+        input(type='text' id='username' name='username' required autocomplete='username')
+      .form-group
+        label(for='password') Contraseña
+        input(type='password' id='password' name='password' required autocomplete='current-password')
+      button(type='submit' class='btn') Iniciar sesión
+    p.volver
+      a(href='/') ← Volver a la página principal
