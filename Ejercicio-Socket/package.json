@@ -1,0 +1,16 @@
+{
+  "name": "ejercicio-socket",
+  "version": "1.0.0",
+  "description": "Ejercicio 6 de Node.js: chat con Socket.IO e inicio de sesión con Express",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "express-session": "^1.19.0",
+    "pug": "^3.0.4",
+    "socket.io": "^4.8.4"
+  }
+}

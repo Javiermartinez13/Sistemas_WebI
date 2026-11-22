@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  main.tarjeta.chat
+    header.cabecera
+      div
+        h1 Chat
+        p.subtitulo
+          | Usuario: 
+          strong= usuario
+      form(method='POST' action='/logout')
+        button.btn.btn-secundario(type='submit') Cerrar sesión
+    p#estado.estado Conectando...
+    ul#mensajes.mensajes
+    form#formulario.envio
+      input#texto(type='text' placeholder='Escribe un mensaje' maxlength='500' autocomplete='off')
+      button.btn(type='submit') Enviar
+  script(src='/socket.io/socket.io.js')
+  script(src='/javascripts/chat.js')

@@ -1,0 +1,191 @@
+:root {
+  --fondo: #14161b;
+  --tarjeta: #1d2027;
+  --superficie: #262a33;
+  --borde: #333845;
+  --texto: #e6e8ec;
+  --texto-suave: #9aa1ad;
+  --acento: #4fa3a5;
+  --acento-hover: #5fb7b9;
+  --error: #e07a7a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background: var(--fondo);
+  color: var(--texto);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.5;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+a {
+  color: var(--acento);
+}
+
+.tarjeta {
+  width: 100%;
+  background: var(--tarjeta);
+  border: 1px solid var(--borde);
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.subtitulo {
+  margin: 4px 0 0;
+  color: var(--texto-suave);
+}
+
+.subtitulo strong {
+  color: var(--acento);
+}
+
+/* Formularios y botones */
+input {
+  width: 100%;
+  padding: 10px 12px;
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: 6px;
+  color: var(--texto);
+  font-size: 1rem;
+}
+
+input:focus {
+  outline: none;
+  border-color: var(--acento);
+}
+
+.btn {
+  padding: 10px 18px;
+  background: var(--acento);
+  color: #0f1114;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: var(--acento-hover);
+}
+
+.btn-secundario {
+  background: transparent;
+  color: var(--texto);
+  border: 1px solid var(--borde);
+  font-weight: 500;
+}
+
+.btn-secundario:hover {
+  background: var(--superficie);
+}
+
+/* Login */
+.login {
+  max-width: 380px;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.login label {
+  margin-top: 6px;
+  font-size: 0.9rem;
+  color: var(--texto-suave);
+}
+
+.login .btn {
+  margin-top: 14px;
+}
+
+.error {
+  margin: 16px 0 0;
+  padding: 10px 12px;
+  border: 1px solid var(--error);
+  border-radius: 6px;
+  color: var(--error);
+  background: rgba(224, 122, 122, 0.08);
+}
+
+
+/* Chat */
+.chat {
+  max-width: 760px;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 32px);
+  max-height: 760px;
+}
+
+.cabecera {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.estado {
+  margin: 12px 0;
+  font-size: 0.85rem;
+  color: var(--texto-suave);
+}
+
+.mensajes {
+  flex: 1;
+  overflow-y: auto;
+  list-style: none;
+  margin: 0;
+  padding: 12px;
+  background: var(--fondo);
+  border: 1px solid var(--borde);
+  border-radius: 8px;
+}
+
+.mensajes li {
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  background: var(--superficie);
+  border-left: 3px solid var(--acento);
+  border-radius: 4px;
+}
+
+.mensajes .autor {
+  font-weight: 600;
+  color: var(--acento);
+}
+
+.mensajes .hora {
+  margin-left: 8px;
+  font-size: 0.8rem;
+  color: var(--texto-suave);
+}
+
+.mensajes p {
+  margin: 2px 0 0;
+  overflow-wrap: anywhere;
+}
+
+.envio {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
